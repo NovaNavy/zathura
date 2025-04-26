@@ -9,3 +9,12 @@
   color: @index-active-fg@;
   background-color: @index-active-bg@;
 }
+
+/* Rounded corners for borderless */
+window {
+	border-radius: 10px;
+}
+
+#@session@ .statusbar {
+	border-radius: 0px 0px 10px 10px; /* Rounding only the bottom corners to correlate with the window. */                                                          
+}
